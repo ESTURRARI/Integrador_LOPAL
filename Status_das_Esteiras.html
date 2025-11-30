@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Status das Esteiras - Monitoramento de Estoque</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    h1 { color: #000000; }
+    table { border-collapse: collapse; width: 100%; max-width: 800px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    th { background: #f0f0f0; }
+    .vermelho { background: #ffdede; }   /* para 0 */
+    .amarelo { background: #fff6d6; }    /* para 1 */
+    .verde { background: #e7ffe7; }      /* para 2+ */
+  </style>
+</head>
+<body>
+  <h1>Status das Esteiras - Monitoramento de Estoque</h1>
+  <table>
+    <tr>
+      <th>Data</th><th>Hora</th><th>Esteira 1</th><th>Esteira 2</th><th>Esteira 3</th>
+    </tr>
+<tr>
+  <td>2024/11/26</td><td>06:35:02</td>
+  <td class='verde'>🟢 (ok)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='verde'>🟢 (ok)</td>
+</tr>
+<tr>
+  <td>2024/11/25</td><td>06:34:53</td>
+  <td class='verde'>🟢 (ok)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='verde'>🟢 (ok)</td>
+</tr>
+<tr>
+  <td>2024/11/24</td><td>06:34:37</td>
+  <td class='vermelho'>🔴 (parada)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='verde'>🟢 (ok)</td>
+</tr>
+<tr>
+  <td>2024/11/23</td><td>06:34:21</td>
+  <td class='vermelho'>🔴 (parada)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='vermelho'>🔴 (parada)</td>
+</tr>
+<tr>
+  <td>2024/11/22</td><td>06:33:57</td>
+  <td class='vermelho'>🔴 (parada)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+</tr>
+<tr>
+  <td>2024/11/21</td><td>06:33:48</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+</tr>
+<tr>
+  <td>2024/11/20</td><td>06:33:39</td>
+  <td class='vermelho'>🔴 (parada)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='verde'>🟢 (ok)</td>
+</tr>
+<tr>
+  <td>2024/11/19</td><td>06:33:24</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='verde'>🟢 (ok)</td>
+</tr>
+<tr>
+  <td>2024/11/18</td><td>06:33:12</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+</tr>
+<tr>
+  <td>2024/11/17</td><td>06:33:00</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='verde'>🟢 (ok)</td>
+</tr>
+<tr>
+  <td>2024/11/16</td><td>06:32:48</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='amarelo'>🟡 (baixa)</td>
+  <td class='verde'>🟢 (ok)</td>
+</tr>
+
+  </table>
+  <p style="margin-top:12px; font-size:0.9em; color:#333;">
+    Legenda: 🔴 parada | 🟡 baixa | 🟢 normal
+  </p>
+</body>
+</html>
